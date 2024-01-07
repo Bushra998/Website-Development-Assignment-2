@@ -1,0 +1,76 @@
+#outer{
+    background-image: url(opened-notebook-with-blank-pages-lies-table-with-pen-keyboard-indoor-photo-workplace-with-computer-camera-blur-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    height: 300px;
+    width: 1500px;
+    }
+    #inner1{
+    color: white;
+    border: 2px solid;
+    height: 70px;
+    background-color: None;
+    text-align: center;
+    padding: 25px;
+}
+#inner2{
+    background-image: url(vestrahorn-mountains-stokksnes-iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    height: 50vh;
+    width: 50%;
+    }
+    #inner3{
+        background-image: url(wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass.jpg);
+        background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+         align-items: center;
+         margin-right: auto;
+         margin-left: auto;
+         display: block;
+        height: 50vh;
+        width: 50%;
+        }
+        #inner4{
+        background-image: url(morskie-oko-tatry.jpg);
+        bbackground-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        height: 50vh;
+        width: 50%;
+        }
+        #outer{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        }
+        #navbar{
+        height: 80px;
+        width: 1500px;
+        background-color: rgb(233, 228, 228);
+        display: flex;
+        align-items: center;
+        
+        justify-content: center;
+        }
+        a{
+        text-decoration: none;
+        color: rgb(5, 5, 5);
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin: 8px;}
